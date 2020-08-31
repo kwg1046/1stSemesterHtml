@@ -1,0 +1,105 @@
+  #wrapper {                                                                      /*래퍼*/
+            width:1200px;
+            margin: 0 auto;
+           }
+  #contentWrapper{margin-left: 210px;}                                            /*nav 고정되어 있는 왼쪽 메뉴를 제외한 컨텐츠부분 래퍼*/
+  nav{                                                                            /*왼쪽 고정 메뉴*/
+      float:left;
+      position : fixed;
+      background-color: #5ED2EC;
+      width : 180px;
+      height:100%;
+      margin-left: -8px;
+     }
+  nav p{margin: 10px 40px;}
+  nav li{
+         transition: 1s;
+         list-style: none;
+         margin-top: 80px;
+         text-align: center;
+         margin-left: -40px;
+         font-size: 16px;
+        }
+  nav li:hover{background-color:#2AA6D0;}                                         /*메뉴에 마우스 올리면 배경색 바뀜*/
+  nav li a:link{color : white ; text-decoration: none;}
+  nav li a:visited{color : white ; text-decoration: none;}
+  nav li a:hover{color : white ; text-decoration: none;}
+  nav li a:active{color : white; text-decoration: none;}
+  #login{float : right; width : 800px ; margin-top:-40px; margin-right:-100px;}
+  #Account:link{color : black ; text-decoration: none;}
+  #Account:visited{color : black ; text-decoration: none;}
+  #Account:hover{color : black ; text-decoration: none;}
+  #Account:active{color : black; text-decoration: none;}
+  #thisPage{background-color: #2AA6D0;}                                           /*현재 있는 페이지에 메뉴 배경색*/
+  #thisPage a{color : #5238FD;                                                    /*현재 있는 페이지에 메뉴 글꼴*/
+              font-weight: bold;}
+  header{border-bottom: 1px solid;padding-top:30px;}
+  #search{                                                                        /*공지사항 검색부분*/
+          margin: 0 auto;
+          border : 1px solid;
+          background-color: #D8D0D0;
+          width : 980px;
+          margin-top:40px;
+          margin-bottom : 40px;
+          height : 50px;
+          padding-top:13px;
+         }
+  #searchSelect{margin-left: 350px;margin-right:10px;}
+  #searchA{margin-left: 10px;}                                                    /*검색 버튼*/
+  #searchA:link, #searchA:visited,
+  #searchA:hover,  #searchA:active
+                                  {
+                                   background-color: black;
+                                   color: white;
+                                   padding: 2px 2px;
+                                   text-align: center;
+                                   text-decoration: none;
+                                   display: inline-block;
+                                  }
+  #noticeTable{width:1000px;}                                                    /*공지사항 표 메뉴*/
+  tbody tr td a:link{color : black ; text-decoration : none; font-weight:bold;}
+  tbody tr td a:visited{color : black ; text-decoration: none;}
+  tbody tr td a:hover{color : black ; text-decoration: underline;}
+  table tr td a:active{color : black; text-decoration: none;}
+  #noticeTitle{border-top : 2px solid;}                                          /*공지사항 상단 굵은 선*/
+  #lastNotice{border-bottom : 2px solid;}                                        /*공지사항 상단 굵은 선*/
+  #number{margin-left : 300px;}
+  .clear{clear:both;}
+  footer
+        {
+         clear:both;height:150px;
+         margin-top: 50px;
+        }
+  #footermenu{                                                                   /* 푸터 메뉴*/
+              list-style-type:none;
+              list-style-position:inside;
+              text-align:center;
+              padding-top: 70px;
+              margin-left : -190px;
+             }
+  #footermenu li{
+                 display:inline;
+                 font-size:15px;
+                 margin-left : 10px;
+                }
+  #footermenu a:link{
+                     color : black ;
+                     text-decoration: none;
+                     font-weight : bold;
+                    }
+  #footermenu a:visited{
+                        color : black ;
+                        text-decoration: none;
+                        font-weight : bold;
+                       }
+  #footermenu a:hover{
+                      color : black ;
+                      text-decoration: underline;
+                      font-weight : bold;
+                     }
+  #footermenu a:active{
+                       color : black;
+                       text-decoration: underline;
+                       font-weight : bold;
+                      }
+  #officeInfo{font-size : 10px;}                                                 /* 푸터 메뉴 아래부분 주소 등*/

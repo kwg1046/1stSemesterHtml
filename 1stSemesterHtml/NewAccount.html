@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>회원가입</title>
+    <link href ="NewAccount.css" type="text/css" rel="stylesheet">
+  </head>
+  <body>
+    <div id="wrapper">
+          <nav>
+            <p><a href="index.html" target="_blank"><img src ="image/incheon2.gif"></a></p>
+              <ul>
+                  <li><a href="#">인천관광정보</a></li>
+                  <li><a href="#">인천테마관광</a></li>
+                  <li><a href="#">공사소개</a></li>
+                  <li><a href="Notice.html">공지사항</a></li>
+                  <li><a href="Gallery.html">인천관광갤러리</a></li>
+                  <li><a href="#">정보공개</a></li>
+              </ul>
+          </nav>
+          <div class = "clear"></div>
+      <div id="contentWrapper">
+          <header>
+              <p>* Home > 회원가입</p>
+          </header>
+          <contents>
+            <form id="new">
+                <table>
+                    <caption>회원가입</caption>
+                        <tr>
+                            <td>※ ID 입력</td>
+                            <td><input type="text" placeholder="ex)incheon@incheon.go.kr">
+                                <a href="#">중복확인</a></td>
+                            <td>e-mail 주소 형식으로 입력</td>
+                        </tr>
+                        <tr>
+                            <td>※ 비밀번호 입력</td>
+                            <td><input type="password" placeholder="비밀번호"></td>
+                            <td>숫자+영문자 혼합 10자리 이상</td>
+                        </tr>
+                        <tr>
+                            <td>※ 이름</td>
+                            <td><input type="text" placeholder="한글로만 입력"></td>
+                        </tr>
+                        <tr>
+                            <td>※ 성별</td>
+                            <td>  남성<input type="radio" name="sex" value="male">
+                                  여성<input type="radio" name="sex" value="female">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>※ 핸드폰번호</td>
+                            <td id="phoneNumber">
+                                <div id="telecomChoice">통신사 선택</div>
+                                SKT<input type="radio" name="telecom" value="SKT">
+                                KT<input type="radio" name="telecom" value="KT">
+                                LGT<input type="radio" name="telecom" value="LGT">
+                                <br>
+                                <select>
+                                   <option> 010 </option>
+                                   <option> 011 </option>
+                                   <option> 016 </option>
+                                   <option> 017 </option>
+                                   <option> 018 </option>
+                                   <option> 019 </option>
+                                </select>
+                                - <input type="text"> - <input type="text">
+                                <a href="#">회원가입여부</a></td>
+                        <tr>
+                            <td>※ 이메일주소</td>
+                            <td>
+                                <input type="text" placeholder="ID입력">
+                                    <select>
+                                       <option> 직접입력 </option>
+                                       <option> 네이버 </option>
+                                       <option> 다음 </option>
+                                       <option> 네이트 </option>
+                                       <option> 구글 </option>
+                                    </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>※ 필수동의 약관</td>
+                            <td><textarea name="con" rows="10"cols="45">필수동의약관</textarea>
+                                <br>동의합니다.<input type="radio" name="ryakgwan" value="agree">
+                                동의하지 않습니다.<input type="radio" name="ryakgwan" value="disagree"></td>
+                        </tr>
+                        <tr>
+                            <td>※ 선택동의 약관</td>
+                            <td><textarea rows="10"cols="45">선택동의약관1         선택동의약관2</textarea>
+                                <br>[선택1]위 약관에 동의합니다.<input type="checkbox" name="cyakgwan1" value="agree1">
+                                <br>[선택2]위 약관에 동의합니다.<input type="checkbox" name="cyakgwan1" value="agree2"></td>
+                        </tr>
+                        <tr>
+                                <td>※ 선택동의 약관</td>
+                                <td><textarea rows="10"cols="45">선택동의약관3     선택동의약관4</textarea>
+                                    <br>[선택3]위 약관에 동의합니다.<input type="checkbox" name="cyakgwan2" value="agree3">
+                                    <br>[선택4]위 약관에 동의합니다.<input type="checkbox" name="cyakgwan2" value="agree4"></td>
+                        </tr>
+                        <tr>
+                                <td></td>
+                                <td>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                                  <a href="#">회원가입</a>&nbsp&nbsp<a href="#">취소</a></td>
+                        </tr>
+                </table>
+            </form>
+          </contents>
+          <footer>
+                  <ul id=footermenu>
+                      <li> <a href="#">개인정보처리방침</a></li>
+                      <li> <a href="#">영상정보처리방침</a></li>
+                      <li> <a href="#">저작권보호정책</a></li>
+                      <li> <a href="#">이메일무단수집거부</a></li>
+                      <li> <a href="#">웹접근성정책</a></li>
+                      <li> <a href="#">사이트맵</a></li>
+                      <li> <a href="#">관광안내전화 1330</a></li></ul>
+                      <div id = "officeInfo">[21999] 인천광역시 연수구 갯벌로 12 미추홀타워 16. 17F 인천관광공사 Tel.032-899-7300 / fax. 032-899-7309<br>
+                                             사업자번호 : 108-82-32573 | 대표 : 민민홍<br>
+                                             Copyright(c)
+                      </div>
+          </footer>
+      </div>
+    </div>
+  </body>
+</html>

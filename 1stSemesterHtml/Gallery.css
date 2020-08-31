@@ -1,0 +1,101 @@
+  #wrapper {                                                                      /*래퍼*/
+            width:1200px;
+            margin: 0 auto;
+           }
+  #contentWrapper{margin-left: 210px;}                                            /*nav 고정되어 있는 왼쪽 메뉴를 제외한 컨텐츠부분 래퍼*/
+  nav{                                                                            /*왼쪽 고정 메뉴*/
+      float:left;
+      position : fixed;
+      background-color: #5ED2EC;
+      width : 180px;
+      height:100%;
+     }
+  nav p{margin: 10px 40px;}
+  nav li{
+         transition: 1s;
+         list-style: none;
+         margin-top: 80px;
+         text-align: center;
+         margin-left: -40px;
+         font-size: 16px;
+        }
+  nav li:hover{background-color:#2AA6D0;}                                         /*메뉴에 마우스 올리면 배경색 바뀜*/
+  nav li a:link{color : white ; text-decoration: none;}
+  nav li a:visited{color : white ; text-decoration: none;}
+  nav li a:hover{color : white ; text-decoration: none;}
+  nav li a:active{color : white; text-decoration: none;}
+  #thisPage{background-color: #2AA6D0;}                                           /*현재 있는 페이지에 메뉴 배경색*/
+  #thisPage a{
+              color : #5238FD;                                                    /*현재 있는 페이지에 메뉴 글꼴*/
+              font-weight: bold;
+             }
+  #login{float : right; width : 800px ; margin-top:-40px; margin-right:-100px;}   /*상단 로그인 부분*/
+  #Account:link{color : black ; text-decoration: none;}                           /*회원가입에 걸려있는 회원가입 페이지로 넘어가는 메뉴*/
+  #Account:visited{color : black ; text-decoration: none;}
+  #Account:hover{color : black ; text-decoration: none;}
+  #Account:active{color : black; text-decoration: none;}
+  .clear{clear:both;}
+  header{border-bottom: 1px solid;padding-top:30px;}
+  .songdo{background-color:#1A9BCE; color : white;}
+  table{margin-top: 20px;}
+  .container{width : 1000px; }                                                    /*상단 메뉴 표 크기 */
+  tbody tr td{margin-left: 60px;}                                                 /*상단 메뉴 표 안 글 설정들*/
+  .table>tbody>tr>td{padding-left: 120px;}
+  #search{                                                                        /*검색 부분 표 크기*/
+          margin: 0 auto;
+          border : 1px solid;
+          background-color: #D8D0D0;
+          height : 50px;
+          padding-top:13px;
+          width : 980px;
+         }
+  #searchSelect{margin-left: 350px;margin-right:10px;}                            /*제목 내용 검색 선택*/
+  #searchA{margin-left: 10px;}                                                    /*검색 버튼*/
+  #searchA:link, #searchA:visited,
+  #searchA:hover,  #searchA:active {
+                                    background-color: black;
+                                    color: white;
+                                    padding: 2px 2px;
+                                    text-align: center;
+                                    text-decoration: none;
+                                    display: inline-block;
+                                   }
+  #imageGaesi{margin-top: 30px;}
+  #pageSelect{margin-left: 315px;}
+  footer{
+         clear:both;height:150px;
+         margin-top: 50px;
+        }
+        #footermenu{                                                              /* 푸터 메뉴*/
+                    list-style-type:none;
+                    list-style-position:inside;
+                    text-align:center;
+                    padding-top: 70px;
+                    margin-left : -190px;
+                   }
+        #footermenu li{
+                       display:inline;
+                       font-size:15px;
+                       margin-left : 10px;
+                      }
+        #footermenu a:link{
+                           color : black ;
+                           text-decoration: none;
+                           font-weight : bold;
+                          }
+        #footermenu a:visited{
+                              color : black ;
+                              text-decoration: none;
+                              font-weight : bold;
+                             }
+        #footermenu a:hover{
+                            color : black ;
+                            text-decoration: underline;
+                            font-weight : bold;
+                           }
+        #footermenu a:active{
+                             color : black;
+                             text-decoration: underline;
+                             font-weight : bold;
+                            }
+        #officeInfo{font-size : 10px;}                                            /* 푸터 메뉴 아래부분 주소 등*/

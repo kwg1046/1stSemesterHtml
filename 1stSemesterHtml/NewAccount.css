@@ -1,0 +1,91 @@
+  #wrapper {                                                                      /*래퍼*/
+            width:1200px;
+            margin: 0 auto;
+           }
+  #contentWrapper{margin-left: 210px;}                                            /*nav 고정되어 있는 왼쪽 메뉴를 제외한 컨텐츠부분 래퍼*/
+  nav{                                                                            /*왼쪽 고정 메뉴*/
+      float:left;
+      position : fixed;
+      background-color: #5ED2EC;
+      width : 180px;
+      height:100%;
+      margin-top: -16px;
+     }
+  nav p{margin: 10px 40px;}
+  nav li{
+         transition: 1s;
+         list-style: none;
+         margin-top: 80px;
+         text-align: center;
+         margin-left: -40px;
+         font-size: 16px;
+        }
+  nav li:hover{background-color:#2AA6D0;}                                         /*메뉴에 마우스 올리면 배경색 바뀜*/
+  nav li a:link{color : white ; text-decoration: none;}
+  nav li a:visited{color : white ; text-decoration: none;}
+  nav li a:hover{color : white ; text-decoration: none;}
+  nav li a:active{color : white; text-decoration: none;}
+  header{border-bottom: 1px solid;}
+  contents{background-color: #E2C975;}
+  contents td{                                                                    /*회원가입 부분 표 넓이와 높이*/
+              width: 300px;
+              height: 30px;
+             }
+  #new{                                                                           /*회원가입 부분 폼태그 ID*/
+       border : 1px solid;
+       width : 800px;
+       margin-top: 50px;
+       margin-left: 100px;}
+  #new caption{                                                                   /*회원가입 부분 캡선*/
+               font-size: 20px;
+               margin-bottom: 50px;
+              }
+  table{margin-top: 50px;}
+  table td a:link, table td a:visited {
+                                        background-color: #EFF60A;
+                                        color: black;
+                                        padding: 2px 2px;
+                                        text-align: center;
+                                        text-decoration: none;
+                                        display: inline-block;
+                                      }
+  table td a:hover, table td a:active { background-color: #BDC073;}
+  #phoneNumber input{width:35px;}                                                 /* 인풋 텍스트 상자 넓이*/
+  #telecomChoice{font-size: 12px;}                                                /* 라디오 박스 위에 통신사 선택 글꼴 크기*/
+  footer{                                                                         /*푸터*/
+         clear:both;height:150px;
+         margin-top: 50px;
+        }
+  #footermenu{                                                                    /* 푸터 메뉴*/
+              list-style-type:none;
+              list-style-position:inside;
+              text-align:center;
+              padding-top: 70px;
+              margin-left : -190px;
+             }
+  #footermenu li{
+                 display:inline;
+                 font-size:15px;
+                 margin-left : 10px;
+                }
+  #footermenu a:link{
+                     color : black ;
+                     text-decoration: none;
+                     font-weight : bold;
+                    }
+  #footermenu a:visited{
+                        color : black ;
+                        text-decoration: none;
+                        font-weight : bold;
+                       }
+  #footermenu a:hover{
+                      color : black ;
+                      text-decoration: underline;
+                      font-weight : bold;
+                     }
+  #footermenu a:active{
+                       color : black;
+                       text-decoration: underline;
+                       font-weight : bold;
+                      }
+  #officeInfo{font-size : 10px;}                                                  /* 푸터 메뉴 아래부분 주소 등*/

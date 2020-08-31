@@ -1,0 +1,172 @@
+  header{height: 200px;}
+  #incheon{                         /*메인페이지 상단 마크*/
+           float:left;
+           margin-right: 250px;
+           margin-bottom: 20px;
+           margin-left: 20px;
+          }
+  #wrapper {                         /*랩퍼*/
+            width:1200px;
+            margin: 0 auto;
+           }
+  #longinSection{padding-top: 10px;}  /*로그인 섹션*/
+  #login{                               /*상단 로그인 메뉴*/
+         list-style-type: none;
+         border: solid 0;
+        }
+  #login a:link, #login a:visited {       /*로그인 버튼 */
+                                    background-color: #2BB7CC;
+                                    color: white;
+                                    padding: 2px 2px;
+                                    text-align: center;
+                                    text-decoration: none;
+                                    display: inline-block;
+                                  }
+  #login a:hover, #login a:active {
+                                    background-color: #33636A;
+                                  }
+  #login li{display:inline;}
+  #menu{                            /*상단 메뉴 섹션*/
+        border-bottom: solid 1px black;
+        height:50px;
+        list-style-type:none;
+        list-style-position:inside;
+        text-align:center;
+       }
+  #menu li{
+           color : white;
+           display:inline;
+           font-size:20px;
+          }
+  #menu li a {
+              text-align: center;
+              padding: 14px 30px;
+              text-decoration: none;
+             }
+  #menu a:link{color : black ; text-decoration: none;}
+  #menu a:visited{color : black ; text-decoration: none;}
+  #menu a:hover{color : black ; text-decoration: underline;}
+  #menu a:active{color : black; text-decoration: underline;}
+  section{height:950px;margin-left: 35px;}      /*헤더와 푸터를 제외한 섹션부분 높이*/
+  #mainImage{                 /*넘어가는 광고*/
+             float:left;
+             width:647px;
+             height:531px;
+             border:solid 0px;
+             position : relative;
+             overflow: hidden;
+             margin : auto;
+             margin-bottom: 20px;
+            }
+
+  #mainImage div{
+                 position : relative;
+                 width : 2588px; height: 531px;
+                 animation-name : adv;
+                 animation-duration : 12s;
+                 animation-iteration-count : infinite;
+                }
+  #mainImage div img{float:left;}
+                @keyframes adv {
+                                0% {right:0px;}
+                                25%{right:0px;}
+                                26% {right : 647px;}
+                                50% {right:647px;}
+                                51% {right:1294px;}
+                                75% {right:1294px;}
+                                76% {right:1941px;}
+                                99% {right:1941px;}
+                                100%{right:0px;}
+                               }
+  #gongji{                              /*공지사항 li로 되있는 메뉴*/
+          margin:0 0 10px 15px;
+          float:left;
+          width:500px;
+          height:250px;
+         }
+  #gongjiMenu{
+              border-bottom: solid 1px #000000;
+              height:20px;
+              list-style-type:none;
+              list-style-position:inside;
+              text-align:center;
+              padding:12px;
+             }
+  #gongjiMenu li{
+                 margin-right : 13px;
+                 display:inline;
+                }
+  #gongjiMenu a:link{color : black ; text-decoration: none;}
+  #gongjiMenu a:visited{color : black ; text-decoration: none;}
+  #gongjiMenu a:hover{color : black ; text-decoration: underline;}
+  #gongjiMenu a:active{color : black; text-decoration: underline;}
+  #gongjiMenu{font-size:12pt;}
+  #gongjisahang{font-size: 13px;}
+  #gongjisahang a:link{color : black ; text-decoration: none;}
+  #gongjisahang a:visited{color : black ; text-decoration: none;}
+  #gongjisahang a:hover{color : black ; text-decoration: underline;}
+  #gongjisahang a:active{color : black; text-decoration: underline;}
+  #socialMedia{                             /*소셜미디어*/
+               list-style-type:none;
+               list-style-position:inside;
+               text-align:center;
+              }
+  #socialMedia li{display:inline;}
+  #tourinfoMargine{float:left;}             /*인천여행정보*/
+
+  #tourinfo{
+            list-style-type:none;
+            list-style-position:inside;
+            text-align:center;
+           }
+  #tourinfo li{
+               display:inline;
+               margin-left: 10px;
+              }
+  #tematourMargine{float:right;}        /*인천테마관광*/
+  #tematour{
+            list-style-type:none;
+            list-style-position:inside;
+            text-align:center;
+           }
+  #tematour li{
+               display:inline;
+               margin-left: 10px;
+              }
+  #mlink{
+         list-style-type:none;
+         list-style-position:inside;
+         text-align:center;
+         margin-right: 40px;
+        }
+  #mlink li{
+            display:inline;
+            margin-left: 50px;
+           }
+  footer{                               /*푸터*/
+         clear:both;height:150px;
+         background-color: black;
+        }
+  #footermenu{                          /*푸터메뉴*/
+              color : white;
+              list-style-type:none;
+              list-style-position:inside;
+              text-align:center;
+              padding-top: 70px;
+             }
+  #footermenu li{
+                 display:inline;
+                 font-size:20px;
+                }
+  #footermenu a:link{color : white ; text-decoration: none;}
+  #footermenu a:visited{color : white ; text-decoration: none;}
+  #footermenu a:hover{color : white ; text-decoration: underline;}
+  #footermenu a:active{color : white; text-decoration: underline;}
+  div.fixed {                         /*하단 오른쪽 픽스되어있는 이미지*/
+             position: fixed;
+             bottom: 0;
+             right: 0;
+             width: 200px;
+             border: 0 solid
+            }
+  .clear{clear:both;}

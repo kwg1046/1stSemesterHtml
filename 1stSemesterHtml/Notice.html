@@ -1,0 +1,163 @@
+    <!DOCTYPE html>
+    <html>
+      <head>
+        <meta charset="utf-8">
+        <title>공지사항</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <link href ="Notice.css" type="text/css" rel="stylesheet">
+      </head>
+      <body>
+      <div id="wrapper">
+          <nav>
+                <p><a href="index.html" target="_blank"><img src ="image/incheon2.gif"></a></p>
+                  <ul>
+                      <li><a href="#">인천관광정보</a></li>
+                      <li><a href="#">인천테마관광</a></li>
+                      <li><a href="#">공사소개</a></li>
+                      <li id="thisPage"><a href="Notice.html">공지사항</a></li>
+                      <li><a href="Gallery.html">인천관광갤러리</a></li>
+                      <li><a href="#">정보공개</a></li>
+                  </ul>
+          </nav>
+        <div class = "clear"></div>
+        <div id="contentWrapper">
+            <header>
+              <p>* Home > 공지사항</p>
+              <div class="container" id="login">
+                  <form class="form-inline" action="/action_page.php">
+                      <div class="form-group">
+                          <label for="email">아이디 : </label>
+                          <input type="email" class="form-control" id="email" placeholder="ex)xxx@incheon.go.kr" name="email">
+              </div>
+                  <div class="form-group">
+                      <label for="pwd">패스워드 : </label>
+                      <input type="password" class="form-control" id="pwd" placeholder="PW" name="pwd">
+                  </div>
+                      <button type="submit" class="btn btn-default">로그인</button>
+                      <button type="submit" class="btn btn-default"><a href="NewAccount.html" id="Account">회원가입</a></button>
+                  </form>
+        </div>
+        </header>
+        <contents>
+            <div id = "search">
+                <form>
+                    <select id ="searchSelect">
+                       <option> 제목 </option>
+                       <option> 내용 </option>
+                       <option> 제목 + 내용 </option>
+                       <option> 작성자 </option>
+                       <option> 담당부서 </option>
+                    </select>
+                  <input type="text">
+                  <a href="#" id=searchA>검색</a>
+              </form>
+          </div>
+          <div class="container" id="noticeTable">
+              <table class="table table-hover">
+                  <thead>
+                      <tr id="noticeTitle">
+                          <th class="col-sm-1">번호</th>
+                          <th class="col-sm-6">제목</th>
+                          <th class="col-sm-1">작성자</th>
+                          <th class="col-sm-1">작성일</th>
+                      </tr>
+                  </thead>
+                  <tbody>
+                      <tr>
+                        <td>262</td>
+                        <td><a href="#">인천-대만 타오위엔 청소년 홈스테이교류 최종 합격자 발표</a></td>
+                        <td>관리자</td>
+                        <td>2019.06.06</td>
+                      </tr>
+                      <tr>
+                        <td>261</td>
+                        <td><a href="#">인천-대만 청소년 홈스테이교류 1차 서류 합격자 발표 및 면접일시 공지</a></td>
+                        <td>관리자</td>
+                        <td>2019.06.05</td>
+                      </tr>
+                      <tr>
+                        <td>260</td>
+                        <td><a href="#">『2019 코리아뷰티앤코스메틱쇼』 개최안내 및 부스참여 요청</a></td>
+                        <td>관리자</td>
+                        <td>2019.06.04</td>
+                      </tr>
+                      <tr>
+                        <td>259</td>
+                        <td><a href="#">『2019 인천국제기계전』 개최안내 및 부스참여 요청</a></td>
+                        <td>관리자</td>
+                        <td>2019.06.03</td>
+                      </tr>
+                      <tr>
+                        <td>258</td>
+                        <td><a href="#">"2019년 인천관광공사 녹색제품 구매계획" 공표</a></td>
+                        <td>경영지원팀</td>
+                        <td>2019.06.02</td>
+                      </tr>
+                    <tr>
+                      <td>257</td>
+                      <td><a href="#">2019 관광객 맞이 강화'봄'콘서트 안내</a></td>
+                      <td>관리자</td>
+                      <td>2019.06.01</td>
+                    </tr>
+                    <tr>
+                      <td>256</td>
+                      <td><a href="#">2019년 지방공기업 경영평가 고객만족도 조사</a></td>
+                      <td>관리자</td>
+                      <td>2019.05.31</td>
+                    </tr>
+                    <tr>
+                      <td>255</td>
+                      <td><a href="#">인천시청 앞 새로운 시민공간의 이름을 부탁해요!</a></td>
+                      <td>관리자</td>
+                      <td>2019.05.25</td>
+                    </tr>
+                    <tr>
+                      <td>254</td>
+                      <td><a href="#">인천e음카드 이용시 송도컨벤시아 전시회 입장이 무료!</a></td>
+                      <td>관리자</td>
+                      <td>2019.05.22</td>
+                    </tr>
+                    <tr id="lastNotice">
+                      <td>253</td>
+                      <td><a href="#">2019 인천펜타포트음악축제 공모 결과</a></td>
+                      <td>관리자</td>
+                      <td>2019.04.28</td>
+                    </tr>
+                </tbody>
+            </table>
+          </div>
+          <div class="container" id = "number">
+              <ul class="pagination">
+                  <li class="active"><a href="#">1</a></li>
+                  <li><a href="#">2</a></li>
+                  <li><a href="#">3</a></li>
+                  <li><a href="#">4</a></li>
+                  <li><a href="#">5</a></li>
+                  <li><a href="#">6</a></li>
+                  <li><a href="#">7</a></li>
+                  <li><a href="#">8</a></li>
+                  <li><a href="#">9</a></li>
+                  <li><a href="#">10</a></li>
+              </ul>
+          </div>
+        </contents>
+        <footer>
+            <ul id="footermenu">
+                <li> <a href="#">개인정보처리방침</a></li>
+                <li> <a href="#">영상정보처리방침</a></li>
+                <li> <a href="#">저작권보호정책</a></li>
+                <li> <a href="#">이메일무단수집거부</a></li>
+                <li> <a href="#">웹접근성정책</a></li>
+                <li> <a href="#">사이트맵</a></li>
+                <li> <a href="#">관광안내전화 1330</a></li></ul><br>
+                <div id = "officeInfo">[21999] 인천광역시 연수구 갯벌로 12 미추홀타워 16. 17F 인천관광공사 Tel.032-899-7300 / fax. 032-899-7309<br>
+                                       사업자번호 : 108-82-32573 | 대표 : 민민홍<br>
+                                       Copyright(c)
+                </div>
+          </footer>
+        </div>
+      </div>
+    </body>
+  </html>
